@@ -25,8 +25,13 @@ object RawDataProcessor {
     
     val toDF = sqlContext.createDataFrame(filteredData,  schema)
     println("Hello11133333")
+
     println("localcopyy Anvay")
 println("aaa")
+
+    println("localcopy")
+    println("shrikantaa ")
+
   //----  toDF.write.parquet("hdfs://sandbox.hortonworks.com:8020/user/ipredict/processed/flume/events/dga-" + java.time.LocalDate.now + ".parquet")
 
    // val parquetFile1 = sqlContext.read.parquet("hdfs://sandbox.hortonworks.com:8020/user/ipredict/processed/flume/events/dga-" + java.time.LocalDate.now + ".parquet")
