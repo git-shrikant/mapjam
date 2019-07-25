@@ -24,6 +24,7 @@ object RawDataProcessor {
     val  filteredData = dgadata.map(line => parse(line))
     
     val toDF = sqlContext.createDataFrame(filteredData,  schema)
+    println("Hello")
 
   //----  toDF.write.parquet("hdfs://sandbox.hortonworks.com:8020/user/ipredict/processed/flume/events/dga-" + java.time.LocalDate.now + ".parquet")
 
